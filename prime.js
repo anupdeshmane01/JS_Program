@@ -1,11 +1,13 @@
-readline = require('readline-sync');
+function primeNumber(){
+ for (let i=1; i<=50; i++){
+    if(i<=1){
+        return false
+    }
+    if(i<=3){
+     return true
+    }
+console.log(i)
+ }
 
-const value = parseFloat(readline.question('Enter any number '))
-const output = value
-if(value % 2!=1){
-    console.log(`${value} Given number is prime`)
-}else if(value % 2===0){
-    console.log(`${value} Given number is even`)
-}else{
-    console.log('Number is odd')
 }
+primeNumber()

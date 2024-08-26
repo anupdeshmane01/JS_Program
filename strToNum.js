@@ -4,7 +4,6 @@ let num1 = [...new Set(str)]
 
 let num = num1.filter((char =>'0123456789'.includes(char)))
 
-
 let arr = num.map(Number)
 
 console.log(arr)

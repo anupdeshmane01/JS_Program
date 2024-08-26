@@ -1,8 +1,8 @@
 const readline = require('readline-sync')
 
-num1 = parseFloat(readline.question('Enter Any nuber '))
-num2 = parseFloat(readline.question('Enter Any 2nd nuber '))
-
+num1 = parseInt(readline.question('Enter Any nuber '))
+num2 = parseInt(readline.question('Enter Any 2nd nuber '))
+ 
 add =  num1 + num2;
 sub = num1 - num2;
 mult = num1 * num2;
